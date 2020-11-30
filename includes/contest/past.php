@@ -1,5 +1,8 @@
 <div class="past-contest mt-5">
 	<table class="table table-bordered">
+	<br>
+		<br>
+		<br>
 		<h4 class="text-muted">Past contest</h4>
 		<thead class="thead-dark">
 			<tr>

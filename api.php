@@ -1,5 +1,5 @@
 <?php
-require_once ("Hackerearth-SDK-PHP\sdk\index.php");
+require_once ("./Hackerearth-SDK-PHP/sdk/index.php");
 
 $hackerearth = Array(
 	'client_secret' => 'b1803e335e227a1320fc6dc3587a0d496e97d3e5',

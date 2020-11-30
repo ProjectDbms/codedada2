@@ -1,5 +1,8 @@
 <div class="future-contest mt-5">
 	<table class="table table-bordered">
+	<br>
+		<br>
+		<br>
 		<h4 class="text-info">Upcoming contest</h4>
 		<thead class="thead-dark">
 			<tr>

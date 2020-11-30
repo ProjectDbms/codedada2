@@ -11,7 +11,9 @@
 			include("includes/db_connection.php");
 			if(!(isset($_SESSION["username"]))) {
 				//header("location: login.php");
-			}
+			} else {
+                header('location: index_profile.php');
+            }
 			include("includes/header.php");
 		?>
         
@@ -38,9 +40,9 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link " href="login.php">Login</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#section3">Register</a></li>
 						<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact Us</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#section3">Register</a></li>
+                        <li class="nav-item"><a class="nav-link " href="login.php">Login</a></li>
                     </ul>
                 </div>
             </div>
